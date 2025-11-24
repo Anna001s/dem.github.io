@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Новогодний кроссворд</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+      text-align: center;
+      padding: 20px;
+      color: #222;
+    }
+
+    h1 {
+      color: #d32f2f;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      color: #555;
+      margin-bottom: 25px;
+    }
+
+    .grid {
+      display: inline-grid;
+      grid-template-columns: repeat(10, 40px);
+      grid-gap: 2px;
+      margin: 20px auto;
+      background-color: #333;
+      padding: 6px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .cell {
+      width: 40px;
+      height: 40px;
+      background-color: white;
+      display: flex;
+      align-items: center;
