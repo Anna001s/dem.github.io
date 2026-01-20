@@ -42,4 +42,36 @@
          <a href="https://www.flaticon.com/ru/free-icons/-" title="Рождественская елка иконки">Рождественская елка иконки от IconMarketPK - Flaticon</a> 
 </p>
 </body>
+ <meta charset="UTF-8">
+    <title>Мой блог</title>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <style>
+        /* Анимация снежинок */
+        body {
+            margin: 0;
+            overflow-x: hidden;
+            background: #f0f8ff; /* Светло-голубой фон для зимнего настроения */
+            position: relative;
+        }
+
+        .snowflake {
+            position: absolute;
+            top: -20px;
+            color: #fff;
+            font-size: 24px;
+            user-select: none;
+            z-index: 1000;
+            animation: fall linear infinite;
+        }
+
+        @keyframes fall {
+            to {
+                transform: translateY(105vh) rotate(360deg);
+            }
+        }
+
+        /* Генерация снежинок через JavaScript (ниже в <script>) */
+    </style>
+</head>
+<body>
 </html>
